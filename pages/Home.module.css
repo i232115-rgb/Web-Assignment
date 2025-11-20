@@ -1,0 +1,93 @@
+/* src/pages/Home.module.css */
+.heroSection {
+  position: relative;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 71, 71, 0.55);
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 2rem;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.heroContent.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.heroTitle {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  color: #f0f7f7;
+  margin: 1.5rem 0;
+}
+
+.heroButton {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background: #008B8B;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.heroButton:hover {
+  background: #005F5F;
+  transform: translateY(-3px);
+}
+
+.countrySection {
+  margin: 3rem auto;
+  max-width: 600px;
+  padding: 2rem;
+  background: rgba(255,255,255,0.92);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.countryTitle {
+  color: #004d4d;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.countryInfo {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.countryFlag {
+  width: 120px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}

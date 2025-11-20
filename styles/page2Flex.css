@@ -1,0 +1,154 @@
+/* ===== General Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #c2e0df; /* light teal fallback */
+    color: #022c2c;
+    line-height: 1.6;
+}
+
+/* ===== Header & Navigation ===== */
+header {
+    background: #007f80;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    nav .logo {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #e0ffff;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #e0ffff;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+            nav ul li a:hover {
+                color: #fff;
+            }
+
+/* ===== Page Heading ===== */
+.page-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #006666;
+    color: #e0ffff;
+}
+
+    .page-header h1 {
+        font-size: 2.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+/* ===== Gallery Section with Background ===== */
+.masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80") no-repeat center center/cover;
+    border-radius: 12px;
+    position: relative;
+}
+
+    .masonry-gallery::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 40, 40, 0.6); /* teal overlay */
+        border-radius: 12px;
+        z-index: 1;
+    }
+
+    .masonry-gallery .gallery-item {
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        transition: transform 0.3s;
+        flex: 1 1 250px; 
+        max-width: 300px; /* keeps item proportions */
+    }
+
+        .masonry-gallery .gallery-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s;
+        }
+
+        .masonry-gallery .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+    .masonry-gallery .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 71, 71, 0.8);
+        color: #e0ffff;
+        padding: 0.8rem;
+        font-size: 0.9rem;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .masonry-gallery .gallery-item:hover .caption {
+        opacity: 1;
+    }
+
+/* ===== Footer ===== */
+footer {
+    background: #004d4d;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #e0ffff;
+}
+
+/* ===== Circle Logo (CyberTeam) ===== */
+.circle-logo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 90px;
+    height: 90px;
+    background: #004d4d;
+    color: #e0ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}

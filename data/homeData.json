@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Travel the World, Stay Secure",
+    "description": "Welcome to <strong>Secure Journeys</strong> — where wanderlust meets cybersecurity.<br />Explore destinations while learning how to protect your digital footprint on the go.<br />Every journey should be inspiring, safe, and secure.",
+    "buttonText": "Explore Destinations",
+    "backgroundImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTERUQEhMVFhUVFxUWFRcXFhUVFxcVFRIWFxUWFRUYHiggGBolHRUVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGy0lICUtLS0tLy0tLS0tKy0tLS0tLS0tLS0tLS0tLSstLS0tLS4tLS0tLTYtLystLS03LS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAwQFAgEGB//EADQQAAIBAgUCBAQFBAMBAAAAAAABAgMRBBIhMUFRYSJxgZEFMrHwE0KhwdEGFOHxI1JiFf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIBEBAQEBAQACAwADAAAAAAAAAAECESESMQMTQSJRwf/aAAwDAQACEQMRAD8A/aQAacgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADlzW19XsgOgQxqNpvK0+EzmpUbVrOLe3muLoqdTSqJbte5G8VDr9ShXja10lLn9ux3Rw91md7dFuxxj53+L0K8Xsw60V+Ze6M2riU9Ivw8LTjyIlLz67MvE/Y05YyK7+SPFjY916fwZmfz67MZ11766aeo4n7K2oVE1dPQ6M7Cwz7u6XsaCRHTN7Hp42emfiqbz9efRBdXi+menNOKSSWx0FeZkRusrN/btvY9VGN72V0e5FvYJ66R6eRknsekVy5q9r6vY6IcRRvqvmWxzSqu+WTW3r3KnfVgBMEUAAAAAAAAAAAAp4ys1omu9nqVLeRcBkxryX5mSQxkubP77DjP7I0jPlVi29Ha/wAy3/Uih8SzN5ZR04Wp1LFX8Mle/TT1E9N3l5fE9Jxe8m76W29ThSXiUYyk1JXT731uyu4Rtq278aWXvuWK1eLjbW628+pWeo56aOT07R9rvV/oXKWTRJptbcvvYrKWe3hTd9XZ7ff0PMXSUXdfUEvPVx0I9EZ1enlk0XcNXvaLve3PPcjx8uNdV6b/AFJF1yzqkD1ItUsFfWTt2NOclv0kwVHwtv8AN00fuiw4vh+j2/k5hUgtE0SmXeTxxn6rmy5/16nVuT0zfis5qDjRlGM91dXjvfVLr17iFvJ1pFWGOhKq6MfFKKvO20L/ACqT/wCz10304Pzr45/UGIS/BnD8OqmpZ4zktOHG3D7tn2P9MU406EVBxlF+KdRNPNN/NJvk3ccna5Z/L8rxuylZXK9OGfxS24XCXciqY3ovLpbqRyxkuLLyMcbuouupGPh6K+hBVxq/KV1Uu3J6aP1drEJeM3d/juVWT3bOACsLlDFRirWf1JqWLTdvYyKeIi3lV+bOzs7b2fJKZnL9N26z5WjiZxte97cJnVKpFvRvbbX9+TMBeJ8/WymemRCq1s7HcsTJ212+9Scb/ZGmpcHpRpYt2vJXXUuxd1cNTUr0AEV40Ucav/O/5i+cVE3okvXZehU1Oxkxi3sezg1o0zUpUlHb7Z20OsfrfMYTDzTeZ6RWSD0+XR699l6F1IsYmlZ39Pv0IBjMzORPy7u9d, etc..." },
+  "countryBox": {
+    "title": "Pakistan Today",
+    "flagEmoji": "🇵🇰"
+  }
+}
